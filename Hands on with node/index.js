@@ -2,6 +2,12 @@ var sum = (a,b)=>{
     return a+b;
 }
 
-var name = 'RKU';
+var sub = (a,b)=>{
+    return a-b;
+}
 
-module.exports = {sum,name}
+var mul = (a,b)=>{
+    return a*b;
+}
+
+module.exports = {sum,sub,mul};
